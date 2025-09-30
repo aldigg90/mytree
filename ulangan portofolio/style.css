@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12%;
+    background: #ffffff;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.header .logo {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.header .logo {
+    color: #000000;
+}
+.header .logo:hover {
+    color: #000000;
+    text-shadow: 0 0 25px #000000, 0 0 50px #000000;
+    transform: scale(1.1);
+}
+
+.header .logo .hover {
+    color: #000000;
+    transform: scale(1.1);
+}
+
+.header .navbar a {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.header .navbar a:hover {
+    color: #000000;
+    border-bottom: 3px solid #ffffff;
+}
+.header .contact {
+    padding: 10px 28px;
+    background-color: #ffffff;
+    color: #000;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3S ease;
+}
+.header .contact:hover {
+    background-color: #000000;
+    color: #fff;
+    box-shadow: 0 0 25px #000000;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.home .home-content {
+    max-width: 800px;
+}
+.home .home-content h4 {
+    font-size: 40px;
+}
+.home .home-content h5 {
+    font-size: 56px;
+    line-height: 1.2;
+}
+.home .home-content p {
+    font-size: 12px;
+    margin: 25px 0 30px;
+}
+.home .home-content .btn-box {
+    display: flex;
+    gap: 2em;
+    width: 345p;
+}
+
+.blogs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background-color: #ffffff;
+}
+
+.blogs .blogs-img {
+    position: relative;
+    width: 360px;
+    box-shadow: 0 0 25px rgb(0, 0, 0), 0 0 50px rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.blogs .blogs-img img-box {
+    width: 360px;
+    border-radius: 50%;
+}
